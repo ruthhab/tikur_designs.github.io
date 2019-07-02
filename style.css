@@ -1,0 +1,75 @@
+body, html{
+    height: 100%;
+margin: 0; padding: 0;
+background: rgb(174, 176, 179);
+}
+
+h1{
+    color: whitesmoke;
+    font-family: Book antiqua;
+    font-size: 50px;
+    padding: 2px;
+    text-align: left
+
+    
+
+}
+}
+body{
+    background: #282A2C;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+svg{
+    width: 600px;
+    align-self: center;
+    justify-self: center;
+    margin-left: 300px;
+
+}
+svg:hover #logo {
+    animation-duration: 1.2s;
+    animation-name: animatelogo;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    mix-blend-mode: overlay
+
+}
+#logo{
+    opacity: 0;
+}
+@keyframes animatelogo{
+    from{
+        transform: translateX(0) translateY(30px);
+      opacity: 0;  
+    }
+    to{
+        transform: translateX(20px) translateY(-60px);
+        opacity:1;  
+    }
+}
+
+
+
+
+.st0{enable-background:new    ;}
+.st1{fill:#4D828A;}
+.st2{fill:#50868F;}
+.st3{fill:#538B94;}
+.st4{fill:#569099;}
+.st5{fill:#59959E;}
+.st6{fill:#5C9AA3;}
+.st7{fill:#5E9EA8;}
+.st8{fill:#4A7D85;}
+.st9{fill:#ECECEC;}
+.st10{fill:#84DEEC;}
+.st11{clip-path:url(#XMLID_108_);enable-background:new    ;}
+.st12{clip-path:url(#XMLID_109_);enable-background:new    ;}
+.st13{clip-path:url(#XMLID_110_);enable-background:new    ;}
+.st14{fill:#558F98;}
+.st15{fill:#63A5B0;}
+.st16{clip-path:url(#XMLID_111_);enable-background:new    ;}
+.st17{fill:#F4F4F4;}
+.st18{fill:#949494;}
